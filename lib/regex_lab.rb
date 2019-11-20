@@ -1,3 +1,5 @@
+require 'pry'
+
 def starts_with_a_vowel?(word)
   if word.match(/\b[aeiou]\w*/i)
     true 
@@ -17,6 +19,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.match(/\b[A-Z][a-z]*[?.!]/)
+    binding.pry
     true 
   else 
     false 
