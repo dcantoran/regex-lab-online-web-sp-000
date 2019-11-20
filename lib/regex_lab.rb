@@ -23,7 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   else 
     false 
   end 
-  binding.pry
+  # binding.pry
 end
 
 def valid_phone_number?(phone)
